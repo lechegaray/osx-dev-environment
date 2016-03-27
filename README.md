@@ -16,4 +16,4 @@ After a clean install of OSX El Capitan:
     - Microsoft Office has a bad habit for failing randomly, rerun the script and it should work.
     - Remember that Ansible is idempotent, it will not redownload or reinstall anything if it is present.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Ansible Terminal Example")
+![alt text](https://raw.githubusercontent.com/lechegaray/osx-dev-environment/master/ansible-terminal-example.png "Ansible Terminal Example")
