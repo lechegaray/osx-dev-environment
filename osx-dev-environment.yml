@@ -1,0 +1,40 @@
+- hosts: all
+  tasks:  
+  - name: Install libraries with homebrew
+    homebrew: name={{ item }} state=present
+    with_items:
+      - wget
+      - git
+      - python
+      - lftp
+      - zsh
+      - node
+      - ruby
+  - name: Install applications with homebrew cask
+    homebrew_cask: name={{ item }} state=present
+    with_items:
+      - alfred
+      - transmission
+      - firefox
+      - 1password
+      - appcleaner
+      - caffeine
+      - dropbox
+      - flux
+      - istat-menus
+      - iterm2
+      - microsoft-office
+      - nvalt
+      - parallels-desktop
+      - robomongo
+      - slack
+      - sublime-text
+      - teamviewer
+      - transmit
+      - vagrant
+      - virtualbox
+      - virtualbox-extension-pack
+      - viscosity
+      - visual-studio-code
+      - vlc
+      - zoomus
