@@ -15,3 +15,5 @@ After a clean install of OSX El Capitan:
     - You may need to insert your administrator password at some point.  This is a one time deal.
     - Microsoft Office has a bad habit for failing randomly, rerun the script and it should work.
     - Remember that Ansible is idempotent, it will not redownload or reinstall anything if it is present.
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Ansible Terminal Example")
