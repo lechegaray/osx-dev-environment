@@ -13,7 +13,7 @@ After a clean install of OSX El Capitan:
   - Move into the cloned directory: `cd osx-dev-environment`
   - Run ansible command: `ansible-playbook osx-dev-environment.yml -i hosts`
     - You may need to insert your administrator password at some point.  This is a one time deal.
-    - Microsoft Office has a bad habit for failing randomly, rerun the script and it should work.
+    - Microsoft Office has a bad habit of failing randomly, rerun the script and it should work.
     - Remember that Ansible is idempotent, it will not redownload or reinstall anything if it is present.
 
 ![alt text](https://raw.githubusercontent.com/lechegaray/osx-dev-environment/master/ansible-terminal-example.png "Ansible Terminal Example")
