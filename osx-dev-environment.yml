@@ -11,6 +11,7 @@
       - node
       - ruby
       - ansible
+      - terraform
   - name: Install applications with homebrew cask
     homebrew_cask: name={{ item }} state=present
     with_items:
